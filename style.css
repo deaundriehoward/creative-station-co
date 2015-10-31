@@ -1,0 +1,98 @@
+/*--------------- Basic Setup -----------*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+        clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*--------------- Reusable Components -----------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+    
+}
+
+.box {
+    padding: 1%;
+}
+
+/* Navigation & Header */
+.navigation {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/desk1.jpg');
+    background-position: 100%;
+    background-size: cover;
+	margin:0;
+	padding: 0;
+	background-color: #3498DB;
+    color: #d1d1d1;
+    width: 100%;
+}
+
+.navigation .main-nav ul{
+	float: right;
+	text-align: right;
+	padding: 15px 15px;
+	margin-right: 10px;
+
+}
+
+.main-nav ul li {
+	display: inline;
+	padding: 15px 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    line-spacing: 120%;
+    padding: 150px 0 0 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: -50px;
+    padding: 15px 0 0 60px;
+}
+
+.ion-chevron-down {
+    position: absolute;
+    top: 75%;
+    left: 48%;
+    font-size: 60px; 
+}
+
+
+/* Services Features */
+.services {
+    height: 100vh;
+    width: 100%;
+}
+
+.services h2, .services i, .services p {
+    float: right;
+}
